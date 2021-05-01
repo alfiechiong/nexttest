@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "public",
+    "site":"nexttest-58751",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -8,8 +9,8 @@
     ],
     "rewrite":[
       {
-        "source": "/**",
-        "function": "nextServer"
+        "source":"**",
+        "function":"nextServer"
       }
     ]
   },
